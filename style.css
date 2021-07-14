@@ -183,6 +183,9 @@ video add
     align-items: center;
     border-radius: 6px;    
 }
+.photo_album p{
+    padding-left: 5px;
+}
 .photo img {
     width: 150px;
     height: 80px;
@@ -209,3 +212,5 @@ footer tag
     background-color:lightgray;
     border-radius: 50%
 }
+
+media
