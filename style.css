@@ -212,11 +212,68 @@ footer tag
     border-radius: 50%
 }
 
-/*----------------------------------------------
+/* ----------------------------------------------
  media Queries
  ----------------------------------------------- */
 
  /* mobile devices */
+ @media only screen and (min-width:688px) and (max-width:992px) {
+    .copa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .copa img{
+        padding-top: 0%;
+        width: 329px;
+        height: 259px;
+    }
+    .football{
+        padding-bottom: 121px;
+        padding-top: 112px;
+        padding-left: 216px;
+    }
+    .all_player{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 150px ;
+        justify-content: center;
+
+    }
+    .all_player_others{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 150px ;
+        justify-content: center;
+    }
+    .highilights{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .football_match{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .match_video video{
+        width: 400px;
+        height: 300px;
+    }
+    .photo_album{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .table{
+         display: none;
+     }
+ }
+ /* table devices */
  @media only screen and (max-width:688px) {
     .copa{
         display: flex;
@@ -247,15 +304,6 @@ footer tag
         padding-left: 150px ;
         justify-content: center;
     }
-    .table{
-        width: 100%;
-    }
-    .table table{
-        width: 140%;
-        padding:0%;
-        margin: 0%;
-
-    }
     .highilights{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -268,8 +316,8 @@ footer tag
         text-align: center;
     }
     .match_video video{
-        width: 400px;
-        height: 300px;
+        width: 450px;
+        height: 350px;
     }
     .photo_album{
         display: flex;
