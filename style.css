@@ -273,7 +273,7 @@ footer tag
          display: none;
      }
  }
- /* table devices */
+ /* ipad devices */
  @media only screen and (max-width:688px) {
     .copa{
         display: flex;
