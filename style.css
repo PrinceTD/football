@@ -213,4 +213,11 @@ footer tag
     border-radius: 50%
 }
 
-media
+/*----------------------------------------------
+ media Queries
+ ----------------------------------------------- */
+
+ /* mobile devices */
+ @media only screen and (max-width:688px) {
+     
+ }
