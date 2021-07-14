@@ -32,7 +32,6 @@ background-color: blue;
 }
 .football a:hover{
     color: teal;
-    background-color: yellow;
 }
 .copa img{
     width: 556px;
@@ -136,6 +135,58 @@ tr:hover {
     transform: scale(1.05);
     transition: ease-in-out;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 2), -1px -1px 8px rgba(0, 0, 0, 0, 2);
+}
+/* -------------------------------------------------------------
+video add
+---------------------------------------------------------------*/
+.highlight-video{
+    padding-top: 300px;
+}
+.match h1 {
+    font-weight: 600;
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    padding: 10px 0px;
+}
+.football_match{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.highilights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.match_video {
+    margin: auto;
+    border-radius: 10px;
+}
+.videos{
+    padding-left: 20px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.match_video video {
+    width: 500px;
+    height: 400px;
+}
+
+.photo_album {
+    display: flex;
+    background: #efefef;
+    margin: 20px 0px;
+    align-items: center;
+    border-radius: 6px;    
+}
+.photo img {
+    width: 150px;
+    height: 80px;
+    border-radius: 6px;
 }
 /* --------------------------------------------------------------------
 footer tag 
